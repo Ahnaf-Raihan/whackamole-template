@@ -1,4 +1,5 @@
 import pygame
+import random
 
 
 def main():
@@ -14,7 +15,7 @@ def main():
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     running = False
-            screen.fill("light green")
+            screen.fill("light pink")
             pygame.display.flip()
             clock.tick(60)
     finally:
